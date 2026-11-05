@@ -1,0 +1,81 @@
+## .NET / Visual Studio 忽略规则
+
+# 编译输出
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio 缓存与用户设置
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# 生成的文件
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+nuget.exe
+*.nuget.props
+*.nuget.targets
+
+# 发布产物
+publish/
+[Pp]ublish/
+*.publishsettings
+*.pubxml
+
+# 测试与覆盖率
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# 系统文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# 备份与临时
+*.bak
+*.orig
+*.rej
+*~
